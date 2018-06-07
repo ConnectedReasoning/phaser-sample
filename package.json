@@ -1,0 +1,42 @@
+{
+  "name": "phaser-sample",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Manuel Hernandez",
+  "description": "phaser-sample",
+  "main": "bin/www",
+  "scripts": {
+    "start": "node bin/www",
+    "dev": "nodemon bin/www",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "engines": {
+    "node": "~9.2.1",
+    "npm": "~5.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connectedReasoning/phaser-sample.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "debug": "^3.0.1",
+    "express": "^4.16.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "nodemon": "^1.17.5",
+    "request": "^2.60.0"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ConnectedReasoning/phaser-sample/issues"
+  },
+  "homepage": "https://github.com/ConnectedReasoning/phaser-sample#readme"
+}
