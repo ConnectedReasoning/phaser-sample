@@ -11,7 +11,5 @@ router.get('/', (req, res, next) => {
     __dirname, '..', '..', 'public', 'index.html'));
 });
 
-
-
 module.exports = router;
 
