@@ -317,7 +317,7 @@ function update() {
 
 function loadImages(){
   console.log('in loadImages');
-  game.load.image('stars', 'http://localhost:3002/assets/stars22.png');
+  game.load.image('stars', '/assets/stars22.png');
   
   game.load.spritesheet('london-citylight',  'assets/cityscape-back_sprite.png', 518, 198);
   game.load.spritesheet('london-citydark', 'assets/cityscape-front_sprite.png', 512, 256);
