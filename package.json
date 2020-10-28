@@ -19,21 +19,21 @@
     "url": "git+https://github.com/connectedReasoning/phaser-sample.git"
   },
   "dependencies": {
-    "body-parser": "^1.18.0",
-    "cookie-parser": "^1.4.3",
-    "cors": "^2.8.4",
-    "debug": "^3.0.1",
-    "express": "^4.16.1",
-    "lodash": "^4.17.15",
-    "moment": "^2.18.1",
-    "morgan": "^1.9.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "^4.2.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "nodemon": "^1.17.5",
-    "request": "^2.60.0"
-  },
+        "chai": "^4.2.0",
+    "nodemon": "^2.0.6",
+    "request": "^2.88.2"
+   },
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/ConnectedReasoning/phaser-sample/issues"
